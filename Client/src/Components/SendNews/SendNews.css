@@ -1,0 +1,52 @@
+.divFormSendNews{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.divFormSendNews label {
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.firstDivFormSendNews{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMailsAdded{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+
+.buttonSendNewsForm{
+    border-radius: 0;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #24282f;
+    font-size: 15px;
+    color: white;
+    max-width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.buttonSendNewsForm:hover {
+    border: white solid 0.5px;
+    cursor: pointer;
+}
+
+.titleSendNewOffer{
+    color: white;
+    margin: 0;
+    font-size: 25px;
+    margin: 10px;
+}

@@ -1,0 +1,103 @@
+.Nav_bar img {
+    width: 60px;
+    border-radius: 100%;
+}
+
+#icon a {
+    width: 70%;
+}
+
+#fav {
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
+}
+
+#cart {
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
+}
+
+#fav h3 {
+    background-color: red;
+    border-style: solid;
+    border-radius: 100%;
+    text-align: center;
+    width: 40px;
+    position: relative;
+    right: 25%;
+}
+
+#cart h3 {
+    background-color: red;
+    border-style: solid;
+    border-radius: 100%;
+    text-align: center;
+    width: 40px;
+    position: relative;
+    right: 25%;
+}
+
+.Nav_bar {
+    color:white;
+    display: flex;
+    background-color: hsla(0, 0%, 19%, 0.498);
+    position: fixed;
+    z-index: 10;
+    top: 2%;
+    right: 2%;
+    left: 2%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    max-height: 8%;
+}
+
+.Nav_bar div {
+    padding-left: 0;
+    padding-right: 0;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Nav_bar button {
+    border: none;
+    border-radius: 4px;
+    height: 70%;
+    font-size: 23px;
+    background: none;
+    color: ghostwhite;
+    width: 100px;
+}
+
+.Nav_bar button:hover {
+    cursor: pointer;
+}
+
+.Nav_bar :link {
+    border: none;
+    border-radius: 4px;
+    height: 75%;
+    font-size: 25px;
+    background: none;
+}
+
+.Nav_bar button:hover {
+    background-color: hsla(0, 0%, 19%, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 10px
+}
+
+.Nav_bar button:focus {
+    box-shadow: 5px 5px 20px #0000007f;
+    transform: translate(5px, 5px, 5px);
+}
+
+#nav_bar_user{
+    margin: 10%;
+}

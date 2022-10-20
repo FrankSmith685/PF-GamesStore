@@ -1,0 +1,68 @@
+.filters-games {
+    display: flex;
+    min-width: 100%;
+}
+
+.show-filters{
+    border: 2px solid;
+    border-color: rgb(217, 173, 38);
+    color: white;
+    border-radius: 20px;
+    width: 20%;
+}
+
+.Sorts-Games{
+    width: 80%;
+}
+
+.Sorts {
+    color: white;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 200px;
+}
+
+.Games-Cards-Div {
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Search-Filters{
+    margin-top: 10%;
+    min-height: 100%;
+}
+
+.SELECT-ORDER{
+    background-color: #242424;
+    color: white;
+    padding: 8px 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.SELECT-ORDER:hover {
+    cursor: pointer;
+  background-color: #2f2e2e;
+}
+
+#icono_game_store {
+    margin: auto;
+    width: 80%;
+    border-radius: 50%;
+}
+
+#NO_GAMES {
+    color: ghostwhite;
+    font-weight: 200;
+}
+
+#contenedor_no_games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

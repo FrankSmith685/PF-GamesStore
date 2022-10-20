@@ -1,0 +1,18 @@
+.formRegister {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff7f;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+.divFormRegister {
+color: white
+}
+
+.buttonFormRegister{
+    margin: 5px;
+    color: white
+}

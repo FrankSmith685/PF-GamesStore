@@ -1,0 +1,206 @@
+.Admin-show-settings{
+    width: 80%;
+    background: #24282f;
+    height: auto;
+}
+
+.Admin-settings{
+    width: 20%;
+    background-color: #24282f;
+    border: white solid 1px;
+
+}
+
+.Admin-conteiner {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+
+}
+.AdminAllUsersBiggestDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
+}
+
+.Admin-games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 1150px;
+}
+.Admin-games::-webkit-scrollbar {
+    display: none;
+}
+
+.conteinerCart2{
+    color: white;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 800px;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.Admin-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adminButtonStyle{
+    border-radius: 0;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #24282f;
+    font-size: 15px;
+    color: white;
+    max-width: 144px;
+}
+.adminUserH1{
+    color: white;
+    text-align: center;
+}
+
+.adminButtonStyle:hover {
+    border: white solid 0.5px;
+    cursor: pointer;
+}
+.adminImageButtonStyle{
+    margin-right: 7px
+    
+}
+.adminButtonStyleDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.adminUsersDivConfig{
+    box-sizing: border-box;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #10182f;
+    flex-direction: row;
+}
+.adminUsersDivCard:hover{
+    background-color:rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+
+.adminUsersDivCard{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.453);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    
+}
+.adminUserLastFlex{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:center; 
+}
+.adminUserLastFlex h3 {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+}
+.adminUserLastFlex p {
+    font-size: 13px;
+    margin: 2px 0 40px
+}
+.adminSpanUserCard {
+  background: #c4bebe;
+  font-size: 13px;
+  margin: 30px 20px ;
+  color: black;
+  padding: 5px 15px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.adminUserLastFlex button {
+    border-radius: 0;
+    margin: 5px;
+    padding: 5px;
+    background-color: #24282f;
+    font-size: 15px;
+    color: white;
+}
+.adminUserLastFlex button:hover{
+    cursor: pointer;
+    border: white solid 0.5px;
+}
+
+.adminImgUserCard{
+    width: 50%;
+    margin-left: 25%;
+    border: black solid;    
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.searchbar-admin{
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+    /* margin-top: 7px */
+}
+
+
+/* CSS */
+.button-40 {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  margin:3%
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}

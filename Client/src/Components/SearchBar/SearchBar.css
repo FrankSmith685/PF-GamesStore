@@ -1,0 +1,113 @@
+/* .home-navbar button {
+  cursor: pointer;
+  padding: 10px 40px;
+  background: rgb(49, 49, 49);
+  border: none;
+  color: white;
+  border-radius: 5px;
+
+  box-shadow: 1px 1px 10px -5px #000000;
+}
+
+.home-navbar button:hover {
+  box-shadow: 5px 5px 20px #000000;
+  transform: translateY(-5px);
+} */
+
+.home-navbar {
+  background-color: #313131bd;
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 25px;
+}
+:root{
+  --color-primary: #fff;
+  --color-secundary: #000;
+  --color-gray-dark: #737373;
+  --color-gray-medium: #545454;
+  --color-gray-light: #cccdcd;
+  --font-primary: 'Montserrat', sans-serif;
+}
+
+.cont-searchbar{
+  height: 100%;
+  width: 550px;
+  margin: 0px -150px;
+}
+
+.cont-searchbar form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 550px;
+}
+.cont-searchbar form button{
+  padding-left: 10px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+.cont-searchbar form button img{
+
+  width: 20px;
+}
+.cont-searchbar form input{
+  outline: none;
+  font-size: 1em;
+  background-color: #191a22;
+  padding-left: 0px;
+  height: 35px;
+  width: 0px;
+  border: none;
+  border-radius: 50px;
+  transition: 1s;
+}
+.cont-searchbar:hover form input{
+  background-color: var(--color-primary);
+  padding-left: 20px;
+  height: 35px;
+  width: 250px;
+  border: none;
+  border-radius: 50px;
+}
+.INPUT-SEARCH:focus {
+  height: 35px;
+  width: 250px;
+  padding-left: 20px;
+
+  background-color: var(--color-primary);
+  border-radius: 50px;
+}
+
+.cont-searchbar:focus form input{
+  background-color: var(--color-primary);
+  padding-left: 20px;
+  height: 35px;
+  width: 250px;
+  border: none;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 390px){
+  .cont-searchbar form button{
+      margin: 0;
+      padding: 0;
+      height: 0px;
+      width: 0px;
+
+  }
+  .cont-searchbar form input{
+      background-color: var(--color-primary);
+      margin-top: 30px;
+      padding-left: 20px;
+      height: 35px;
+      width: 250px;
+      border: none;
+      border-radius: 50px;
+  }
+}

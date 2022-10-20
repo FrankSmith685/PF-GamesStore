@@ -1,0 +1,118 @@
+.divFlexAboutContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.About {
+ width: 250px;
+ height: 400px;
+ background: #242424;
+ border-radius: 10px;
+ text-align: center;
+ transition: all 0.5s;
+ margin: 10px;
+}
+
+.About:hover {
+box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+background-color: #3b3b3bbb; 
+}
+
+.About .blob{
+height: 10px;
+ width: 75%;
+ border-radius: 0 0 30px 30px;
+ margin: 0 auto;
+ background-color: #454545;
+ visibility: visible;
+ transition: all 0.3s;
+}
+.About:hover .blob {
+    height: 0;
+}
+.About h3 {
+    padding: 15px 10px;
+ font-size: 25px;
+ transition: all 0.1s;
+ z-index: -99;
+ line-height: 17px;
+}
+
+.About h3:hover {
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.About span {
+    font-size: 18px;
+}
+
+.imageProfileAbout {
+ display: flex;
+ margin: 30px auto 10px auto;
+ width: 70px;
+ height: 70px;
+ background-color: #4bb8ff;
+ border-radius: 50%;
+ font-size: 11px;
+ justify-content: center;
+ align-items: center;
+ transition: all 0.5s;
+}
+
+.imageProfileAbout:hover {
+ width: 200px;
+ height: 200px;
+ border-radius: 10px 0 0;
+ margin: 0 auto;
+ background-color: #f0f0f0;
+ z-index: 99999;
+}
+.About-general {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.name {
+    padding: 2%
+}
+
+.About>p {
+    opacity: 0;
+    transition: all 0.75s;
+   }
+
+   
+   .About:hover>p {
+    position: absolute;
+    bottom: 15px;
+    left: 35px;
+    opacity: 1;
+    transition: all 0.1s;
+   }
+
+.aboutTitleMembers{
+    color: white;
+}
+
+#backToHome{
+    border-radius: 0;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #24282f;
+    font-size: 15px;
+    color: white;
+    max-width: 144px;
+}
+
+#backToHome:hover {
+    border: white solid 0.5px;
+    cursor: pointer;
+}

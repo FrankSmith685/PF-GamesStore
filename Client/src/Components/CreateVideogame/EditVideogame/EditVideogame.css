@@ -1,0 +1,106 @@
+.div {
+    margin-top: 10%;
+    position:absolute;
+    height: 80vh;
+    width:100vw;
+    bottom:0%;
+    
+}
+
+#edit{
+    width:50%;
+    height:30%;
+    left:0%;
+    bottom:50%;
+    position:absolute;
+   
+}
+
+
+
+#video_game_info {
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    min-height: 100%;
+}
+
+.game_detail_edit{
+    position:absolute;
+    right:0%;
+    bottom:50%;
+}
+
+#juego_boton_info {
+    padding: 1%;
+}
+
+#detail_loading_info {
+    text-align: center;
+    margin-top: 15%;
+}
+
+#detalles_container_info{
+    display: flex;
+}
+
+#details_Container_info {
+    display: flex;
+}
+
+#detalles_containerData_info {
+    width: 95%;
+}
+
+#detalles2_containerSide_info {
+    width: 20%;
+    display: block;
+}
+
+#detalles_containerSide_info {
+    border-radius: 10px;
+    border: 1px;
+    border-style: groove;
+    border-color: black;
+
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 10%;
+    position: sticky;
+    display: table-caption;
+}
+
+#detalles_containerSide a {
+
+    text-decoration: none;
+}
+
+#detalles_containerSide button {
+    border-radius: 5px;
+    max-height: 10%;
+    min-width: 100%;
+}
+
+.juegoImagenes_info {
+    display: flex;
+}
+
+.juegoImagen_info {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.detail_game_info {
+    color: white;
+    padding: 10%;
+    width:50%;
+    height:100%;
+    right:0%;
+    bottom:0%;
+    position:absolute;
+}
+
+.juegoImagenes button {
+    background: none;
+    border-radius: 20px;
+    padding: 0;
+}

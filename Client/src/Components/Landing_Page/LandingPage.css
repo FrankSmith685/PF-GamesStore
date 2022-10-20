@@ -1,0 +1,17 @@
+.body_landing {
+  padding-top: 5%;
+}
+
+.carrousel {
+  display: flex;
+  justify-content: center;
+
+}
+
+.carrousel_card {
+  display: flex;
+}
+
+#contenedor_landing_img img{
+  height: 500px;
+}

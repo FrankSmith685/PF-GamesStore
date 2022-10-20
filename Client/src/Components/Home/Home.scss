@@ -1,0 +1,214 @@
+.h{
+    color: ghostwhite;
+    margin-left: 5%;
+    text-align: none;
+    font-weight: 200;
+}
+
+.home-primary-videogames {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:30px;
+    background-color: rgb(49, 49, 49);
+}   
+
+.home-show-img-secundary{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-img-primary {
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: url('https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2020/12/minecraft.jpg?fit=2048%2C1350&quality=50&strip=all&ssl=1');
+    width: 500px;
+    height: 312px;
+}
+
+.home-img-secundary {
+    width: 250px;
+    height: 125px;
+}
+
+.home-card{
+    display: flex;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.Home-Games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-populars{
+    height: 700px;
+}
+
+.main-carrousel{
+    background-color: #ffffff7f;
+    padding-top: 3%;
+    backdrop-filter: blur(5px);
+}
+
+.main-carrousel{
+    -webkit-box-shadow: inset 1px 8px 104px -26px rgba(0,0,0,1);
+    -moz-box-shadow: inset 1px 8px 104px -26px rgba(0,0,0,1);
+    box-shadow: inset 1px 8px 104px -26px rgba(0,0,0,1);
+}
+
+.carrusel-triple{
+ display:flex;
+ margin: 2%;
+}
+
+.home-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: white;
+    width: 85%;
+}
+
+.individual-home-list {
+    border-right: 0.5px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    transition: 0.2s;
+    background-color: #ffffff7f;
+    backdrop-filter: blur(2px);
+}
+
+.home-game-list {
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    padding: 2%;
+}
+
+.home-game-list:hover{
+    backdrop-filter: blur(1px);
+    border-radius: 29px;
+    margin: 2%;
+    background-color: #ffffff7f;
+}
+
+.unordered-list-home{
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 0.5px solid;
+}
+
+.unordered-list-home-first{
+    padding-right: 2%;
+}
+
+.main-title-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.main-title-home h1{
+    color: #0000007f;
+}
+
+.kave {
+    &-btn {
+      position: relative;
+      border: solid 1px rgba(0, 214, 252, 0.3);
+      background: #000000bd;
+      color: rgba(0, 214, 252, 0.5);
+      font-family: "Roboto", sans-serif;
+      text-transform: uppercase;
+      font-weight: normal;
+      letter-spacing: 1.8px;
+      width: 200px;
+      height: 70px;
+      padding: 0;
+      transition: all 0.25s ease;
+      outline: none;
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 60px;
+        height: 1px;
+        transform: translateY(-1px);
+        background: rgba(0, 214, 252, 1);
+        transition: all 0.25s ease;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        width: 60px;
+        height: 1px;
+        transform: translateY(1px);
+        background: rgba(0, 214, 252, 1);
+        transition: all 0.25s ease;
+      }
+      &:hover {
+        box-shadow: 1px 1px 8px rgba(0, 214, 252, 0.3);
+        color: rgba(0, 214, 252, 1);
+        text-shadow: 0 0 8px rgba(0, 214, 252, 0.4);
+        &.kave-btn:before {
+          left: 0;
+          width: 20px;
+        }
+        &.kave-btn:after {
+          right: 0;
+          width: 20px;
+        }
+        .kave-line:before {
+          bottom: 0;
+        }
+        .kave-line:after {
+          top: 0;
+        }
+      }
+    }
+    &-line {
+      &:before {
+        content: "";
+        position: absolute;
+        bottom: 30%;
+        right: 0;
+        width: 1px;
+        height: 20px;
+        transform: translateX(1px);
+        background: rgba(0, 214, 252, 1);
+        transition: all 0.25s ease;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        top: 30%;
+        left: 0;
+        width: 1px;
+        height: 20px;
+        transform: translateX(-1px);
+        background: rgba(0, 214, 252, 1);
+        transition: all 0.25s ease;
+      }
+    }
+  }
+  
+.carruseles{
+    margin-bottom: 10%
+}

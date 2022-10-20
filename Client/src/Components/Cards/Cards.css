@@ -1,0 +1,130 @@
+.card-videogame{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    border-radius: 15px;
+    margin: 2rem;   
+    background-color: ghostwhite;
+  background-image: linear-gradient(225deg, #05003a 0%, #000000ff 40%, #000000bd 70%, #0000007f 100%);
+     height: 250px;
+}
+.card-favourite{
+  color: ghostwhite;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+.card-favourite span{
+  display: flex;
+  align-items: center;
+  max-width: 190px;
+  padding-right: 10px;
+}
+
+#button_card {
+    width: min-content;
+    display: flex;
+}
+
+.h{
+    text-align: center;
+}
+
+.image-card {
+    width: 225px;
+    height: 150px;
+    border-radius: 15px;
+    background: round;
+    
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+
+.card-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-shadow: 0 1px 0 rgb(51 51 51 / 30%);
+    color: #fff;
+    padding: 2%;
+    box-shadow: 0 0 2px rgb(0 0 0 / 20%);
+    transform: scale(1.15);
+    transition: 0.2s;
+}
+
+  
+  .favourite-checkbox {
+    display: none;
+  }
+  
+  .favourite-label {
+    font-size: 25px;
+    transition: 500ms;
+    cursor: pointer;
+  }
+  
+  .favourite-checkbox:checked + .favourite-label {
+    color: red;
+    transform: scale(1.2);
+  }
+
+  .sweetAlert {
+    width: 22em;
+    margin: 0 auto;
+    top: 300px;
+    left: 512px;
+    right: 0;
+    background-color: #05003a;
+}
+
+.swal-modal {
+  width: 478px;
+  opacity: 0;
+  pointer-events: none;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  position: static;
+  margin: 20px auto;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  z-index: 10001;
+  transition: opacity .2s,-webkit-transform .3s;
+  transition: transform .3s,opacity .2s;
+  transition: transform .3s,opacity .2s,-webkit-transform .3s;
+  background-color: hsla(0, 1%, 26%, 0.904);
+}
+
+.swal-title {
+  color: #e8e8e8;
+  font-weight: 600;
+  text-transform: none;
+  position: relative;
+  display: block;
+  padding: 13px 16px;
+  font-size: 27px;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.swal-button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  box-shadow: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 24px;
+  margin: 0;
+  cursor: pointer;
+}

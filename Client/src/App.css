@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+  margin-top: 200px
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes squeeze3124 {
+  0% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+  }
+ 
+  30% {
+   -webkit-transform: scale3d(1.25, 0.75, 1);
+   transform: scale3d(1.25, 0.75, 1);
+  }
+ 
+  40% {
+   -webkit-transform: scale3d(0.75, 1.25, 1);
+   transform: scale3d(0.75, 1.25, 1);
+  }
+ 
+  50% {
+   -webkit-transform: scale3d(1.15, 0.85, 1);
+   transform: scale3d(1.15, 0.85, 1);
+  }
+ 
+  65% {
+   -webkit-transform: scale3d(0.95, 1.05, 1);
+   transform: scale3d(0.95, 1.05, 1);
+  }
+ 
+  75% {
+   -webkit-transform: scale3d(1.05, 0.95, 1);
+   transform: scale3d(1.05, 0.95, 1);
+  }
+ 
+  100% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+  }
+ }
+ 
+ @keyframes glitch {
+  0% {
+   clip-path: var(--slice-1);
+   transform: translate(-20px, -10px);
+  }
+ 
+  10% {
+   clip-path: var(--slice-3);
+   transform: translate(10px, 10px);
+  }
+ 
+  20% {
+   clip-path: var(--slice-1);
+   transform: translate(-10px, 10px);
+  }
+ 
+  30% {
+   clip-path: var(--slice-3);
+   transform: translate(0px, 5px);
+  }
+ 
+  40% {
+   clip-path: var(--slice-2);
+   transform: translate(-5px, 0px);
+  }
+ 
+  50% {
+   clip-path: var(--slice-3);
+   transform: translate(5px, 0px);
+  }
+ 
+  60% {
+   clip-path: var(--slice-4);
+   transform: translate(5px, 10px);
+  }
+ 
+  70% {
+   clip-path: var(--slice-2);
+   transform: translate(-10px, 10px);
+  }
+ 
+  80% {
+   clip-path: var(--slice-5);
+   transform: translate(20px, -10px);
+  }
+ 
+  90% {
+   clip-path: var(--slice-1);
+   transform: translate(-10px, 0px);
+  }
+ 
+  100% {
+   clip-path: var(--slice-1);
+   transform: translate(0);
+  }
+ }

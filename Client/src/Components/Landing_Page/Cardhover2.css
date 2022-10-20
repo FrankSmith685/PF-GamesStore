@@ -1,0 +1,216 @@
+.abs,
+h2:after,
+.cards2 .card2 figcaption,
+.cards2 .card2:after,
+.news .card2 figcaption,
+.news .card2:after,
+.news .article figcaption {
+  position: absolute;
+}
+
+.rel,
+h2,
+h2 strong,
+.cards2 .card2,
+.news .card2,
+.news .article {
+  position: relative;
+}
+
+.fix {
+  position: fixed;
+}
+
+.dfix {
+  display: inline;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.db {
+  display: block;
+}
+
+.dn {
+  display: none;
+}
+
+.df,
+.cards2,
+.news {
+  display: flex;
+}
+
+.dif {
+  display: inline-flex;
+}
+
+.dg {
+  display: grid;
+}
+
+.dig {
+  display: inline-grid;
+}
+
+.vm,
+h2,
+h2 strong,
+h2 span {
+  vertical-align: middle;
+}
+
+.wrapper2 {
+  padding: 15px;
+}
+
+.cards2,
+.news {
+  flex-flow: row wrap;
+}
+
+.cards2 .card2,
+.news .card2 {
+  margin: 0px;
+  width: 800PX;
+  height: 600px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+  transition: 0.3s;
+  opacity: 50%;
+}
+
+.cards2 .card2 img,
+.news .card2 img {
+  width: 100%;
+  min-height: 100%;
+}
+
+.cards2 .card2 figcaption,
+.news .card2 figcaption {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  padding-bottom: 200px;
+  font-size: 80px;
+  background: none;
+  color: rgb(255 255 255);
+  transform: translateY(100%);
+  transition: 0.3s;
+}
+
+
+.cards2 .card2:after,
+.news .card2:after {
+  content: '';
+  z-index: 10;
+  width: 200%;
+  height: 100%;
+  top: -90%;
+  left: -20px;
+  opacity: 100%;
+  transform: rotate(45deg);
+  background: linear-gradient(to top, transparent, #fff 15%, rgba(255, 255, 255, 0.5));
+  transition: 0.3s;
+}
+
+.cards2 .card2:hover,
+.news .card2:hover,
+.cards2 .card2:focus,
+.news .card2:focus,
+.cards2 .card2:active,
+.news .card2:active {
+  box-shadow: 0 8px 16px 3px rgba(0, 0, 0, 0.6);
+  transform: translateY(-3px) scale(1.05) rotateX(15deg);
+  opacity: 100%;
+}
+
+.cards2 .card2:hover figcaption,
+.news .card2:hover figcaption,
+.cards2 .card2:focus figcaption,
+.news .card2:focus figcaption,
+.cards2 .card2:active figcaption,
+.news .card2:active figcaption {
+  transform: none;
+}
+
+.cards2 .card2:hover:after,
+.news .card2:hover:after,
+.cards2 .card2:focus:after,
+.news .card2:focus:after,
+.cards2 .card2:active:after,
+.news .card2:active:after {
+  transform: rotate(25deg);
+  top: -40%;
+  opacity: 1%;
+}
+
+.news .article {
+  overflow: hidden;
+  width: 454px;
+  height: 400px;
+}
+
+.news .article img {
+  width: 100%;
+  min-height: 100%;
+  transition: 0.2s;
+}
+
+.news .article figcaption {
+  font-size: 24px;
+  text-shadow: 0 1px 0 rgb(51 51 51 / 30%);
+  color: #fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 30px;
+  box-shadow: 0 0 2px rgb(0 0 0 / 20%);
+  background: rgba(6,18,53,0.6);
+  opacity: 1%;
+  transform: scale(1.15);
+  transition: 0.2s;
+  overflow-x: scroll;
+}
+
+
+.article figcaption::-webkit-scrollbar {
+  display: none;
+}
+
+.news .article figcaption h3 {
+  color: #3792e3;
+  font-size: 25px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.news .article:hover img,
+.news .article:focus img,
+.news .article:active img {
+  filter: blur(3px);
+  transform: scale(0.97);
+}
+
+.news .article:hover figcaption,
+.news .article:focus figcaption,
+.news .article:active figcaption {
+  opacity: 1%;
+  transform: none;
+  animation: slide 25s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -1500px, 0); /* The image width */
+  }
+}

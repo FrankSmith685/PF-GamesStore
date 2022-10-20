@@ -1,0 +1,326 @@
+.container{
+    display: flex;
+    background-color: rgba(71, 70, 70, 0.438);
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+.spanFormPayment {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+.conteiner-card {
+    background-color: #2533d5ed;
+    margin: 1%;
+    width: 29%;
+    padding: 1%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divElementsFromCartPayment{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 40px;
+}
+
+
+.tituloTarjeta{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.pTarjeta{
+    color: white;
+    margin-top: 30px;
+}
+
+
+.cardTarjeta{
+    color: white;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.divFormPayment{
+    display: flex;
+    flex-direction: column;
+}
+.CardNumberElement {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 320px;
+    padding: 10px;
+    background-color: #ffffff7f;
+    backdrop-filter: blur(1px);
+    border-radius: 3px;
+    color:white
+}
+
+.CardExpiryElement {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #ffffff7f;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    border-radius: 3px;
+    width: 140px;
+    color:white
+}
+.CardCvcElement{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #ffffff7f;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    border-radius: 3px;
+    width: 150px;
+    color:white
+}
+.cardElement{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border:solid black 1px;
+    background-color: darkgray;
+    color: black;
+    width:350px;
+    padding: 7px; 
+}
+
+.subcontainerPagar{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+}
+
+.ButtonPagar{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    background-color: #36abf4fa;
+    border: none;
+    color: white;
+    font-size: large;
+    border-radius: 4px;
+    margin-top: 5%;
+}
+
+
+.ButtonPagar:disabled {
+text-align: center;
+cursor: not-allowed;
+opacity: 0.6;
+border: 2px solid red;
+}
+
+.details-date-cvv{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Date-CVV-conteiner {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.Games-buy-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+.Games-buy-conteiner::-webkit-scrollbar{
+    display: none;
+}
+
+.Regresar{
+
+}
+
+
+/* CSS */
+.button-19 {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    /* padding: 13px 16px; */
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}
+
+.button-pagar{
+    margin-top: 15px;
+}
+
+
+/* CSS */
+.button-49,
+.button-49:after {
+  width: 150px;
+  height: 76px;
+  line-height: 78px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-49:after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  
+  content: 'ALTERNATE TEXT';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+.button-49:hover:after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .button-49,
+  .button-49:after {
+    width: 194px;
+    height: 60px;
+    line-height: 21px;
+  }
+}
