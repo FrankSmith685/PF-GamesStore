@@ -24,28 +24,9 @@ export default function Footer({userLogged}) {
                     <span>
                         <h3>Created by:</h3>
                         <ul className="ul_members">
+                            
                             <li>
-                                <a className="linkTo" href="https://www.linkedin.com/in/sergio-leonel-romero-sanchez-rajoy-fullstack/" target="_blank" rel="noreferrer" >Sergio Romero</a>
-                            </li>
-
-                            <li>
-                                <a className="linkTo" href="https://www.linkedin.com/in/lautaro-robles-57a5ba242/" target="_blank" rel="noreferrer" >Lautaro Robles</a>
-                            </li>
-
-                            <li>
-                                <a className="linkTo" href="https://www.linkedin.com/in/luciana-bermudez-72a40520b/" target="_blank" rel="noreferrer" >Luciana Bermudez</a>
-                            </li>
-
-                            <li>
-                                <a className="linkTo" href="https://www.linkedin.com/in/pierino-esteban-juncos-9a4804240/" target="_blank" rel="noreferrer" >Pierino Esteban Juncos</a>
-                            </li>
-
-                            <li>
-                                <a className="linkTo" href="https://www.linkedin.com/in/serch07/" target="_blank" rel="noreferrer" >Sergio Garcia Moreno</a>
-                            </li>
-
-                            <li>
-                                <a className="linkTo" href="https://www.linkedin.com/in/frank-smith-bocangelino-rojas-351157168/" target="_blank" rel="noreferrer" >Frank Smith Bocangelino</a>
+                                <a className="linkTo" href="https://www.linkedin.com/in/frank-smith-bocangelino-rojas-351157168/" target="_blank" rel="noreferrer" >Frank Smith Bocangelino Rojas</a>
                             </li>
 
                             <li>
