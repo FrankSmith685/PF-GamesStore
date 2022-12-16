@@ -36,7 +36,7 @@ const {
 
 conn.sync({ force: false }).then(() => {
 
-  server.listen(PORT, async() => {
+  server.listen(7667, async() => {
     await getVideogamesApi()
     console.log('%s listening at 3001'); // eslint-disable-line no-console
   });

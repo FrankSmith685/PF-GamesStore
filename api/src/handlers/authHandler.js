@@ -23,7 +23,7 @@ const singUp = async (req, res) =>    {
         {
         try {
 
-        let admins = ['lautaro0121@gmail.com', 'Lautaro0121@gmail.com', "jejog50@gmail.com","juandavid614@hotmail.com", "bermudez.luciana9@gmail.com","f.s.b.rojas@gmail.com", "phyrofyre@gmail.com"]
+        let admins = ["juandavid614@hotmail.com","f.s.b.rojas@gmail.com"]
         let password = bcrypt.hashSync(req.body.password, 8);
         const { name, lastName, userName, mail, address, image} = req.body
         
