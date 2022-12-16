@@ -34,7 +34,7 @@ const {
 
 // Syncing all the models at once.
 
-conn.sync({ force: false }).then(() => {
+conn.sync({ force: true }).then(() => {
 
   server.listen(7667, async() => {
     await getVideogamesApi()
